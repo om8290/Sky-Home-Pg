@@ -21,9 +21,9 @@ export const LOGOIMAGE = logoImage
 export const CONTACT_INFO: ContactInfo = {
   phone1: "+91 9917839363", // Placeholder realistic Indian mobile format
   phone2: "+91 9045021489",
-  address: "Ram Vihar, Opp. Aakash Vihar Metro Pillar No 1041, Near SRM Institute of Science and Technology, Modinagar",
+  address: "Ram Vihar, Opp. Aakash Vihar Metro Pillar No 1041 , Near SRM Institute of Science and Technology, Modinagar",
   // Constructed Google Maps search query
-  mapLink: "https://www.google.com/maps/search/?api=1&query=Ram+Vihar+opp+aakash+vihar+near+srm+institute+of+science+and+technology+modinagar"
+  mapLink: "https://maps.app.goo.gl/A888j5fm19PSiEts9"
 };
 
 export const AMENITIES: Amenity[] = [
