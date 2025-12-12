@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
   <img 
     src={LOGOIMAGE}   // <-- replace with your actual file path
     alt="PG Logo"
-    className={`h-14 w-auto md:h-20 object-contain transition-all ${
+    className={` h-20 w-auto md:h-20 object-contain transition-all ${
       isScrolled || isOpen ? 'brightness-100' : 'brightness-95'
     }`}
   />

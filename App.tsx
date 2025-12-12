@@ -5,7 +5,7 @@ import Details from './components/Details';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import ChatWidget from './components/ChatWidget';
-
+import { CONTACT_INFO  } from './constants';
 const App: React.FC = () => {
   return (
     <main className="min-h-screen bg-white text-slate-900 selection:bg-brand-100 selection:text-brand-900">
@@ -24,13 +24,13 @@ const App: React.FC = () => {
           href="tel:+919897012345" 
           className="flex items-center justify-center bg-brand-600 text-white font-bold py-2.5 rounded-lg text-sm"
         >
-          Call #1
+          Call  {CONTACT_INFO.phone1}
         </a>
         <a 
           href="tel:+919897067890" 
           className="flex items-center justify-center bg-brand-800 text-white font-bold py-2.5 rounded-lg text-sm"
         >
-          Call #2
+          Call  {CONTACT_INFO.phone2}
         </a>
       </div>
 
